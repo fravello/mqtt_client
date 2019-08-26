@@ -11,6 +11,6 @@ config.mongodb = {};
 config.mongodb.hostname   = process.env.MONGODB_HOSTNAME   || 'localhost';
 config.mongodb.port       = process.env.MONGODB_PORT       || 27017;
 config.mongodb.database   = process.env.MONGODB_DATABASE   || 'iotdb';
-config.mongodb.collection = process.env.MONGODB_COLLECTION || 'message';
+config.mongodb.collection = process.env.MONGODB_COLLECTION || 'mqtt_msg';
 
 module.exports = config;
